@@ -12,7 +12,7 @@ The GUI is built using python's native tkinter library, the math is done using n
 
 ### <br />The training algorithm
 
-The forward propagation of input signals to the output of a node is:
+The forward propagation of input signals to the output of a layer of nodes is:
 
 $$ y = f(W_n*x + W_b) $$
 
