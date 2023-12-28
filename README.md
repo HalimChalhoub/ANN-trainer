@@ -58,7 +58,7 @@ After running the installation, the application may be launched with `Run.bat`
     - A network is created and trained
     - Network weights are reinitialized and the *new* network is trained again in repetition untill reaching the sequence number entered
     - The best network weight configuration is chosen based on final error (validation or training, depending on step 2 above)
-5. Train new network: training will be carried out and the accompanying performance plots will be displayed on the right wondow
+5. Train new network: training will be carried out and the accompanying performance plots will be displayed on the right window
     - The MSE and weight variation plots are in log scale
     - The weight variation is the absolute value of the average total weight update (bias and node connections) per iteration
     - The correlation R is Pearson's correlation coefficient
